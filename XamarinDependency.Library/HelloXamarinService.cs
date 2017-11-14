@@ -1,5 +1,6 @@
 ﻿using System;
 using Android.Runtime;
+using Java.Interop;
 
 namespace XamarinDependency.Library
 {
@@ -10,6 +11,7 @@ namespace XamarinDependency.Library
         {
         }
 
+        [Export]
         public string CreateHelloXamarin()
         {
             return "Hello Xamarin!";
