@@ -1,8 +1,10 @@
 ﻿using System;
+using Android.Runtime;
 
 namespace XamarinDependency.Library
 {
-    public class HelloXamarinService
+    [Register("xamarindependency/library/HelloXamarinService")]
+    public class HelloXamarinService : Java.Lang.Object
     {
         public HelloXamarinService()
         {
@@ -10,7 +12,7 @@ namespace XamarinDependency.Library
 
         public string CreateHelloXamarin()
         {
-            return "Hello Xamarin!";    
+            return "Hello Xamarin!";
         }
     }
 }

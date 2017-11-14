@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinDependency.App", "XamarinDependency.App\XamarinDependency.App.csproj", "{777162C1-F170-475F-B1A3-8836DA86CB0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinDependency.Library", "XamarinDependency.Library\XamarinDependency.Library.csproj", "{9C8D413C-1025-4E29-BE1B-B0624D0582A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinDependency.Library", "XamarinDependency.Library\XamarinDependency.Library.csproj", "{4DAF7CF3-D261-469C-91BF-17AE0662D61D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,9 @@ Global
 		{777162C1-F170-475F-B1A3-8836DA86CB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{777162C1-F170-475F-B1A3-8836DA86CB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{777162C1-F170-475F-B1A3-8836DA86CB0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C8D413C-1025-4E29-BE1B-B0624D0582A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C8D413C-1025-4E29-BE1B-B0624D0582A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C8D413C-1025-4E29-BE1B-B0624D0582A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C8D413C-1025-4E29-BE1B-B0624D0582A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAF7CF3-D261-469C-91BF-17AE0662D61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAF7CF3-D261-469C-91BF-17AE0662D61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAF7CF3-D261-469C-91BF-17AE0662D61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAF7CF3-D261-469C-91BF-17AE0662D61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
