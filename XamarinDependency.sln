@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinDependency.App", "XamarinDependency.App\XamarinDependency.App.csproj", "{777162C1-F170-475F-B1A3-8836DA86CB0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinDependency.Application", "XamarinDependency.Application\XamarinDependency.Application.csproj", "{777162C1-F170-475F-B1A3-8836DA86CB0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinDependency.Library", "XamarinDependency.Library\XamarinDependency.Library.csproj", "{4DAF7CF3-D261-469C-91BF-17AE0662D61D}"
 EndProject
