@@ -4,7 +4,7 @@ using Java.Interop;
 
 namespace XamarinDependency.Library
 {
-    [Register("xamarindependency/library/HelloXamarinService")]
+    [Register("com/roydammarell/xamarindependency/HelloXamarinService")]
     public class HelloXamarinService : Java.Lang.Object
     {
         public HelloXamarinService()
