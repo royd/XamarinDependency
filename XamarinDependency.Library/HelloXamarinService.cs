@@ -1,14 +1,13 @@
 ﻿using System;
 using Android.Runtime;
-using Java.Interop;
+using Com.Roydammarell.Xamarininterface;
 
 namespace XamarinDependency.Library
 {
     [Register("com/roydammarell/xamarindependency/HelloXamarinService")]
-    public class HelloXamarinService : Java.Lang.Object
+    public class HelloXamarinService : Java.Lang.Object, IHelloService
     {
-        [Export("createHelloXamarin")]
-        public string CreateHelloXamarin()
+        public string CreateHello()
         {
             return "Hello Xamarin!";
         }

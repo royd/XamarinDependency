@@ -1,13 +1,12 @@
 ﻿using System;
 using Android.Runtime;
-using Java.Interop;
+using Com.Roydammarell.Xamarininterface;
 
 namespace XamarinDependency.Library
 {
     [Register("com/roydammarell/xamarindependency/ExceptionXamarinService")]
-    public class ExceptionXamarinService : Java.Lang.Object
+    public class ExceptionXamarinService : Java.Lang.Object, IExceptionService
     {
-        [Export("throwNullReferenceException")]
         public void ThrowNullReferenceException()
         {
             throw new NullReferenceException("Testing C# NullReferenceException");
