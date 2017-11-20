@@ -7,7 +7,7 @@ namespace XamarinDependency.Library
     [Register("com/roydammarell/xamarindependency/HelloXamarinService")]
     public class HelloXamarinService : Java.Lang.Object
     {
-        [Export]
+        [Export("createHelloXamarin")]
         public string CreateHelloXamarin()
         {
             return "Hello Xamarin!";
