@@ -4,7 +4,16 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="XamarinDependency" expanded="True">
-            <Node name="XamarinDependency.Application" selected="True" />
+            <Node name="XamarinDependency.Application" expanded="True">
+              <Node name="Properties" expanded="True">
+                <Node name="AndroidManifest.xml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="XamarinDependency.Library" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="XamarinDependency.LibraryBindings" expanded="True" />
           </Node>
         </State>
       </Pad>
