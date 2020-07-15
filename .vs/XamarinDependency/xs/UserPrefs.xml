@@ -1,19 +1,13 @@
-﻿<Properties StartupConfiguration="{777162C1-F170-475F-B1A3-8836DA86CB0D}|Default">
+﻿<Properties StartupConfiguration="{4DAF7CF3-D261-469C-91BF-17AE0662D61D}|Default">
+  <MonoDevelop.Ide.ItemProperties.XamarinDependency.Library PreferredExecutionTarget="Android.Pixel_3a_API_28" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="XamarinDependency" expanded="True">
-            <Node name="XamarinDependency.Application" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="AndroidManifest.xml" selected="True" />
-              </Node>
-            </Node>
-            <Node name="XamarinDependency.Library" expanded="True">
+            <Node name="XamarinDependency.Application" expanded="True" selected="True">
               <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True" />
             </Node>
-            <Node name="XamarinDependency.LibraryBindings" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -25,5 +19,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.XamarinDependency.Application PreferredExecutionTarget="Android.Pixel_3a_API_21" />
 </Properties>
