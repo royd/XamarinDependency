@@ -16,7 +16,7 @@
         <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
         <AndroidResgenClass>Resource</AndroidResgenClass>
         <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-        <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
         <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
         <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
         <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -35,6 +35,7 @@
         <AndroidSupportedAbis>armeabi-v7a;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
         <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
         <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+        <AndroidUseAapt2>true</AndroidUseAapt2>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <DebugSymbols>True</DebugSymbols>
@@ -53,9 +54,6 @@
         <Reference Include="System.Xml" />
         <Reference Include="System.Core" />
         <Reference Include="Mono.Android" />
-        <Reference Include="Xamarin.AndroidX.AppCompat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\..\..\.nuget\packages\xamarin.androidx.appcompat\1.1.0.1\lib\monoandroid90\Xamarin.AndroidX.AppCompat.dll</HintPath>
-        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="MainActivity.cs" />
@@ -76,11 +74,6 @@
         <AndroidResource Include="Resources\values\strings.xml" />
         <AndroidResource Include="Resources\values\styles.xml" />
     </ItemGroup>
-    <ItemGroup>
-        <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.1.0.1" />
-        <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.1.0.1" />
-        <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0.1" />
-    <PackageReference Include="Xamarin.AndroidX.Migration" Version="1.0.6.1" /></ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\XamarinDependency.Library\XamarinDependency.Library.csproj">
         <Project>{4DAF7CF3-D261-469C-91BF-17AE0662D61D}</Project>
